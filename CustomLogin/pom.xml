@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>CustomLogin</name>
-	<description>Custom Login project for Spring</description>
+	<description>Custom Login project for Spring</description> 
 
 	<properties>
 		<java.version>1.8</java.version>

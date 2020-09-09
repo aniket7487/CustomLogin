@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World...</h1>
+${SPRING_SECURITY_LAST_EXCEPTION.message}
+<form action="login" method="POST">
+<input type="text" name="username">
+<input type="password" name="password">
+<input type="submit" value="LOGIN">
+</form>
 </body>
 </html>

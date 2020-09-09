@@ -8,7 +8,16 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String getLandingPage() {
-		return "LandingPage";
+		return "landingPage";
+	}
+
+	@RequestMapping("/login")
+	public String loginPage() {
+		return "login";
+	}
+	@RequestMapping("/logout-success")
+	public String logoutPage() {
+		return "logout";
 	}
 
 }
